@@ -1,50 +1,73 @@
 {
-  "_from": "dataserve-index",
-  "_id": "dataserve-index@0.0.6",
-  "_inBundle": false,
-  "_integrity": "sha512-iw7v1ngVrcGiYkzqONWD3hxG16jlUHPiOdtcE4YfuI1bTsHurKMiri7chefLOv/1PAVwBUYJXO/1pSiXbMr6qg==",
-  "_location": "/dataserve-index",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "dataserve-index",
-    "name": "dataserve-index",
-    "escapedName": "dataserve-index",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/dataserve-index/-/dataserve-index-0.0.6.tgz",
-  "_shasum": "dc9ff7c54061d96a893baf0166e26f69ef8a94a2",
-  "_spec": "dataserve-index",
-  "_where": "S:\\2GitHub\\NPM\\smart-dataserve",
-  "author": {
-    "name": "C4T-BrilliantThoughts/Sumanth.Sanathi"
-  },
-  "bugs": {
-    "url": "https://github.com/C4TBrilliantThoughts/dataserve-index/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "serve files content",
-  "homepage": "https://github.com/C4TBrilliantThoughts/dataserve-index#readme",
-  "keywords": [
-    "smart-index"
-  ],
-  "license": "ISC",
-  "main": "index.js",
-  "name": "dataserve-index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/C4TBrilliantThoughts/dataserve-index.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.0.6"
+	"_from": "dataserve-index@^0.0.7",
+	"_id": "dataserve-index@0.0.7",
+	"_inBundle": false,
+	"_integrity": "sha512-PWbFQmCW5PiyDjPOOZoq1RxENyEacNDAudIxHn6WgmiwpQZ9UAX4ZJ+l+scT+97Gg+IT3pg8cpeptycd3B1VPw==",
+	"_location": "/smart-d-link/dataserve-index",
+	"_phantomChildren": {},
+	"_requested": {
+		"type": "range",
+		"registry": true,
+		"raw": "dataserve-index@^0.0.7",
+		"name": "dataserve-index",
+		"escapedName": "dataserve-index",
+		"rawSpec": "^0.0.7",
+		"saveSpec": null,
+		"fetchSpec": "^0.0.7"
+	},
+	"_requiredBy": [
+		"/smart-d-link/dataserve-index"
+	],
+	"_resolved": "https://registry.npmjs.org/dataserve-index/-/dataserve-index-0.0.7.tgz",
+	"_shasum": "bc95f2eebc44197bbc23ef111e4cf46595e58609",
+	"_spec": "dataserve-index@^0.0.7",
+	"_where": "C:\\WINDOWS\\TEMP\\apm-install-dir-1191015-6788-1dldgo6.yph1l\\node_modules\\smart-d-link",
+	"author": {
+		"name": "C4T-BrilliantThoughts/Sumanth.Sanathi"
+	},
+	"bugs": {
+		"url":"https://github.com/Sumanth-C4TBrilliantThoughts/dataserve-index/issues"
+	},
+	"bundleDependencies": false,
+	"dependencies": {
+		"accepts": "~1.3.4",
+		"batch": "0.6.1",
+		"debug": "2.6.9",
+		"escape-html": "~1.0.3",
+		"http-errors": "~1.6.2",
+		"mime-types": "~2.1.17",
+		"parseurl": "~1.3.2"
+	},
+	"deprecated": false,
+	"description": "Serve directory listings",
+	"devDependencies": {
+		"after": "0.8.2",
+		"istanbul": "0.4.5",
+		"mocha": "2.5.3",
+		"supertest": "1.1.0"
+	},
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"files": [
+		"public/",
+		"LICENSE",
+		"HISTORY.md",
+		"index.js"
+	],
+	"homepage": "https://github.com/Sumanth-C4TBrilliantThoughts/dataserve-index#readme",
+	"keywords": [
+		"smart-index"
+	],
+	"license": "ISC",
+	"main": "index.js",
+	"name": "dataserve-index",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Sumanth-C4TBrilliantThoughts/dataserve-index.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"version": "0.0.7"
 }
